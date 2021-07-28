@@ -1,0 +1,16 @@
+{
+  "id": "2703969",
+  "name": "信管工作室招新网站",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "23165462",
+      "name": "箭头",
+      "font_class": "icon--copy",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    }
+  ]
+}
