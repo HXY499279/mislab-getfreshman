@@ -84,7 +84,7 @@ export default function Home() {
         switchPage
     }
 
-    // console.log(stateD)
+    console.log(stateD)
     return (
         <div id="bd">
             <Invatation funs={funs} />

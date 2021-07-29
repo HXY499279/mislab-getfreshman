@@ -7,7 +7,7 @@ import liucheng3 from '../../../assets/liucheng3.png'
 import jiaruwomen from '../../../assets/jiaru.png'
 
 const haveNoContent = () => {
-    alert("即将上线，敬请期待！")
+    alert("即将上线")
 }
 
 export default function index() {

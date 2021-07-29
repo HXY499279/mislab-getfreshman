@@ -42,7 +42,7 @@ export default function Home() {
     const [stateCpBottom, setCpBottomState] = useState(false)
 
     window.onscroll = () => {
-        // console.log(document.documentElement.scrollTop)
+        console.log(document.documentElement.scrollTop)
         // 回到顶部案件
         if (document.documentElement.scrollTop >= 960) {
             setDState(true)
@@ -64,9 +64,10 @@ export default function Home() {
         }
         if (document.documentElement.scrollTop >= 1739) {
             setCpTopState(true)
+        }
+        if (document.documentElement.scrollTop >= 1856) {
             setCpBottomState(true)
         }
-
     }
 
     // 汇总状态,ref,fun
@@ -84,7 +85,7 @@ export default function Home() {
         switchPage
     }
 
-    // console.log(stateD)
+    console.log(stateD)
     return (
         <div id="bd">
             <Invatation funs={funs} />

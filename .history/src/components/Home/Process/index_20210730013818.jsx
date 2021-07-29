@@ -7,7 +7,7 @@ import liucheng3 from '../../../assets/liucheng3.png'
 import jiaruwomen from '../../../assets/jiaru.png'
 
 const haveNoContent = () => {
-    alert("即将上线，敬请期待！")
+    alert("Comming Soon")
 }
 
 export default function index() {
@@ -83,13 +83,13 @@ export default function index() {
                 </div>
                 <div className="prc-bottom">
                     <div className="prc-bottom-item">
-                        <a href="https://www.wjx.top/vj/Q0qa2uE.aspx"><span className="prc-bottom-text">报名投递</span></a>
+                        <a href=""></a>
                     </div>
                     <div className="prc-bottom-item">
                         <span className="prc-bottom-text" onClick={haveNoContent}>学员系统</span>
                     </div>
                     <div className="prc-bottom-item">
-                        <a href="https://jq.qq.com/?_wv=1027&k=LkGcB3dU"><span className="prc-bottom-text">招新咨询</span></a>
+                        <a href="https://www.wjx.top/vj/Q0qa2uE.aspx"><span className="prc-bottom-text">招新咨询</span></a>
                     </div>
                 </div>
                 <div className="prc-title">
