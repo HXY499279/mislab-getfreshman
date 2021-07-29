@@ -34,7 +34,7 @@ export default function index(props) {
                     </div>
                 </div>
                 <div className="prd-right">
-                    <div className={stateCpTop?"prd-right-top prd-right-top-show":"prd-right-top"}>
+                    <div className={stateCpTop?"prd-right-top prd-right-top-show":"prd-left"}>
                         <div className="prd-right-top-left">
                             <span className="prd-right-top-left-cpjs-title">
                                 产品介绍
@@ -46,7 +46,7 @@ export default function index(props) {
                             </span>
                         </div>
                     </div>
-                    <div className={stateCpBottom?"prd-right-bottom prd-right-bottom-show":"prd-right-bottom"}>
+                    <div className="prd-right-bottom">
                         <div className="prd-right-bottom-left">
                             <Image
                                 src={youwen}

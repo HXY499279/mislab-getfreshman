@@ -63,10 +63,10 @@ export default function Home() {
             setAbusSState(true)
         }
         if (document.documentElement.scrollTop >= 1739) {
-            setCpTopState(true)
+            setCpState(true)
         }
         if (document.documentElement.scrollTop >= 1968) {
-            setCpBottomState(true)
+            setCpBottomState
         }
     }
 
@@ -74,11 +74,8 @@ export default function Home() {
     const abusState = {
         stateAbusB,
         stateAbusM,
-        stateAbusS
-    }
-    const prdState = {
-        stateCpTop,
-        stateCpBottom
+        stateAbusS,
+        
     }
 
     const funs = {
@@ -91,7 +88,7 @@ export default function Home() {
             <Invatation funs={funs} />
             <a id="page1" /><AboutUs abusState={abusState} />
             <a id="page2" /><Department />
-            <a id="page3" /><Product prdState={prdState} />
+            <a id="page3" /><Product />
             <a id="page4" /><Member />
             <a id="page5" /><Process />
             <Footer />
@@ -99,7 +96,7 @@ export default function Home() {
                 className={stateD ? "back-to-top-icon " : "back-to-top-icon back-to-top-icon-hidden "}
                 onClick={back}
             >
-                <i className="iconfont icon">&#xe65c;</i>
+               <i className="iconfont icon">&#xe65c;</i> 
             </div>
         </div>
     )

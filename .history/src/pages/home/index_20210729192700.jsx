@@ -74,9 +74,7 @@ export default function Home() {
     const abusState = {
         stateAbusB,
         stateAbusM,
-        stateAbusS
-    }
-    const prdState = {
+        stateAbusS,
         stateCpTop,
         stateCpBottom
     }
@@ -91,7 +89,7 @@ export default function Home() {
             <Invatation funs={funs} />
             <a id="page1" /><AboutUs abusState={abusState} />
             <a id="page2" /><Department />
-            <a id="page3" /><Product prdState={prdState} />
+            <a id="page3" /><Product />
             <a id="page4" /><Member />
             <a id="page5" /><Process />
             <Footer />

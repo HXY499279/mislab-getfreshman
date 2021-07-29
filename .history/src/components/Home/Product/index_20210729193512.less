@@ -1,8 +1,5 @@
 // 动画
-// 动画变量
-@d:100PX;
-@time:1.5s;
-
+@d:20PX;
 @keyframes leftMove {
     0%{
         transform: translateX(-@d);
@@ -76,7 +73,7 @@
             }
         }
         .prd-left-show{
-            animation: leftMove @time forwards;
+            animation: leftMove 1s forwards;
         }
         .prd-right{
             width: 880PX;
@@ -115,7 +112,7 @@
                 }
             }
             .prd-right-top-show{
-                animation: rightTopMove @time forwards;
+                animation: rightTopMove 1s forwards;
             }
             .prd-right-bottom{
                 width: 100%;
@@ -150,7 +147,7 @@
                 }
             }
             .prd-right-bottom-show{
-                animation: rightBottomMove @time forwards;
+                animation: rightBottomMove 1s forwards;
             }
 
         }

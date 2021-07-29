@@ -1,37 +1,22 @@
 // 动画
-// 动画变量
-@d:100PX;
-@time:1.5s;
-
 @keyframes leftMove {
     0%{
-        transform: translateX(-@d);
-        opacity: 0;
+
     }
     100%{
-        transform: translateX(0PX);
-        opacity: 1;
+
     }
 }
 @keyframes rightTopMove {
-    0%{
-        transform: translateY(-@d);
-        opacity: 0;
+        0%{
+
     }
     100%{
-        transform: translateY(0PX);
-        opacity: 1;
+        
     }
 }
 @keyframes rightBottomMove {
-    0%{
-        transform: translateX(@d);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0PX);
-        opacity: 1;
-    }
+    
 }
 
 .product-bgc{
@@ -51,7 +36,6 @@
             background-color: #bfa;
             padding: 40PX;
             text-align: center;
-            opacity: 0;
             background:linear-gradient(270deg, rgba(201, 218, 231, 1) 0%, rgba(235, 239, 249, 1) 100%);
             border-radius: 30PX;
             .prd-left-h1{
@@ -76,7 +60,7 @@
             }
         }
         .prd-left-show{
-            animation: leftMove @time forwards;
+        
         }
         .prd-right{
             width: 880PX;
@@ -88,7 +72,6 @@
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
-                opacity: 0;
                 .prd-right-top-left{
                     width: 280PX;
                     height: 200PX;
@@ -115,14 +98,13 @@
                 }
             }
             .prd-right-top-show{
-                animation: rightTopMove @time forwards;
+
             }
             .prd-right-bottom{
                 width: 100%;
                 height: 200PX;
                 border-radius: 30PX;
                 padding: 15PX 38PX;
-                opacity: 0;
                 display: flex;
                 justify-content: space-between;
                 background: linear-gradient(90deg, rgba(241, 242, 208, 1) 0%, rgba(177, 216, 180, 1) 100%)        }
@@ -150,7 +132,7 @@
                 }
             }
             .prd-right-bottom-show{
-                animation: rightBottomMove @time forwards;
+                
             }
 
         }

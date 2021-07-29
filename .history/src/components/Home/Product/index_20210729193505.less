@@ -1,8 +1,5 @@
 // 动画
-// 动画变量
-@d:100PX;
-@time:1.5s;
-
+@d:20PX;
 @keyframes leftMove {
     0%{
         transform: translateX(-@d);
@@ -51,7 +48,6 @@
             background-color: #bfa;
             padding: 40PX;
             text-align: center;
-            opacity: 0;
             background:linear-gradient(270deg, rgba(201, 218, 231, 1) 0%, rgba(235, 239, 249, 1) 100%);
             border-radius: 30PX;
             .prd-left-h1{
@@ -76,7 +72,7 @@
             }
         }
         .prd-left-show{
-            animation: leftMove @time forwards;
+            animation: leftMove 1s forwards;
         }
         .prd-right{
             width: 880PX;
@@ -115,7 +111,7 @@
                 }
             }
             .prd-right-top-show{
-                animation: rightTopMove @time forwards;
+                animation: rightTopMove 1s forwards;
             }
             .prd-right-bottom{
                 width: 100%;
@@ -150,7 +146,7 @@
                 }
             }
             .prd-right-bottom-show{
-                animation: rightBottomMove @time forwards;
+                animation: rightBottomMove 1s forwards;
             }
 
         }

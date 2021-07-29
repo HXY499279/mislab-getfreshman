@@ -76,10 +76,7 @@ export default function Home() {
         stateAbusM,
         stateAbusS
     }
-    const prdState = {
-        stateCpTop,
-        stateCpBottom
-    }
+    const prdState
 
     const funs = {
         switchPage
@@ -91,7 +88,7 @@ export default function Home() {
             <Invatation funs={funs} />
             <a id="page1" /><AboutUs abusState={abusState} />
             <a id="page2" /><Department />
-            <a id="page3" /><Product prdState={prdState} />
+            <a id="page3" /><Product />
             <a id="page4" /><Member />
             <a id="page5" /><Process />
             <Footer />

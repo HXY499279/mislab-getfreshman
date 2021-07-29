@@ -37,9 +37,6 @@ export default function Home() {
     const [stateAbusB, setAbusBState] = useState(false)
     const [stateAbusM, setAbusMState] = useState(false)
     const [stateAbusS, setAbusSState] = useState(false)
-    // 设置产品介绍页面动画的状态
-    const [stateCpTop, setCpTopState] = useState(false)
-    const [stateCpBottom, setCpBottomState] = useState(false)
 
     window.onscroll = () => {
         console.log(document.documentElement.scrollTop)
@@ -59,26 +56,14 @@ export default function Home() {
         if (document.documentElement.scrollTop >= 690) {
             setAbusSState(true)
         }
-        if (document.documentElement.scrollTop >= 690) {
-            setAbusSState(true)
-        }
-        if (document.documentElement.scrollTop >= 1739) {
-            setCpTopState(true)
-        }
-        if (document.documentElement.scrollTop >= 1968) {
-            setCpBottomState(true)
-        }
     }
 
     // 汇总状态,ref,fun
     const abusState = {
         stateAbusB,
         stateAbusM,
-        stateAbusS
-    }
-    const prdState = {
-        stateCpTop,
-        stateCpBottom
+        stateAbusS,
+        
     }
 
     const funs = {
@@ -91,7 +76,7 @@ export default function Home() {
             <Invatation funs={funs} />
             <a id="page1" /><AboutUs abusState={abusState} />
             <a id="page2" /><Department />
-            <a id="page3" /><Product prdState={prdState} />
+            <a id="page3" /><Product />
             <a id="page4" /><Member />
             <a id="page5" /><Process />
             <Footer />
@@ -99,7 +84,7 @@ export default function Home() {
                 className={stateD ? "back-to-top-icon " : "back-to-top-icon back-to-top-icon-hidden "}
                 onClick={back}
             >
-                <i className="iconfont icon">&#xe65c;</i>
+               <i className="iconfont icon">&#xe65c;</i> 
             </div>
         </div>
     )

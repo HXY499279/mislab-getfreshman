@@ -46,7 +46,7 @@ export default function index(props) {
                             </span>
                         </div>
                     </div>
-                    <div className={stateCpBottom?"prd-right-bottom prd-right-bottom-show":"prd-right-bottom"}>
+                    <div className={stateCpTop?"prd-right-bottom prd-right-bottom-show":"prd-right-bottom"}>
                         <div className="prd-right-bottom-left">
                             <Image
                                 src={youwen}
