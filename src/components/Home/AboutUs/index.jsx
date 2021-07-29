@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Image } from 'antd'
 //引入外部资源
 import bgpic from '../../../assets/bgpic.jpg'
+import us from '../../../assets/us.png'
 import './index.css'
 
 const introducing = `信管工作室成立于2008年
@@ -13,8 +14,8 @@ const introducing = `信管工作室成立于2008年
 
 const des = `信管工作室永远都是一个温暖的大家庭
 这里承载着勤奋、进步、友爱、关怀、和谐与温馨
-这里汇聚了优秀的学长学姐伴你同行在技术学习的道路上`
-// 这里诞生了卓越的技术，新颖的产品和以学习至上的优秀理念
+这里汇聚了优秀的学长学姐在技术学习的道路上伴你同行
+这里诞生了卓越的技术，新颖的产品和以学习至上的优秀理念`
 // 我们不怕困难，勇敢直上，无惧挑战，勇于绽放，追逐最完美的自己
 // 因为这里，是希望撒下的地方，是种子发芽成长的地方，是我们向往的地方
 
@@ -35,6 +36,7 @@ export default function Aboutus(abusState) {
                             </pre>
                         </div>
                         <div className="abus-middle-left-subtitle-label">
+                            <img src={us} alt="us" className="abus-middle-left-us"/>
                             <span className={stateAbusS?"abus-middle-left-subtitle-label-little bm-show":"abus-middle-left-subtitle-label-little bm"}>百名工程师</span>
                             <span className={stateAbusS?"abus-middle-left-subtitle-label-little cx-show":"abus-middle-left-subtitle-label-little cx"}>创新</span>
                             <span className={stateAbusS?"abus-middle-left-subtitle-label-little rc-show":"abus-middle-left-subtitle-label-little rc"}>人才培养</span>

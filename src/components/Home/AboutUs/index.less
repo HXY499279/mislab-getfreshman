@@ -137,6 +137,7 @@
                     background-color: rgb(242, 242, 242);
                     padding: 30PX 70PX;
                     border-radius:30PX;
+                    position: relative;
                     .abus-middle-left-suptitle{
                         font-size: 35PX;
                         color: black;
@@ -161,6 +162,13 @@
                     width: 100%;
                     height: 200PX;
                     position: relative;
+                    .abus-middle-left-us{
+                        width: 500PX;
+                        height: 231PX;
+                        position: absolute;
+                        bottom: 0PX;
+                        left: 90PX;
+                    }
                     .abus-middle-left-subtitle-label-little{
                         height: 40PX;
                         padding: 3PX 6PX;
@@ -177,69 +185,93 @@
                     .bm{
                         left: 270PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0s infinite;
                     }
                     .bm-show{
                         animation: labelFloat 2s 0s infinite , bm @time forwards;
+                        -webkit-animation: labelFloat 2s 0s infinite , bm @time forwards;
+                        -moz-animation: labelFloat 2s 0s infinite , bm @time forwards;
+                        -ms-animation: labelFloat 2s 0s infinite , bm @time forwards;
+                        -o-animation: labelFloat 2s 0s infinite , bm @time forwards;
+                    
                     }
                     .cx{
                         left: 270PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0.14s infinite;
                     }
                     .cx-show{
                         animation: labelFloat 2s 0.14s infinite , cx @time forwards;
+                        -webkit-animation:labelFloat 2s 0.14s infinite , cx @time forwards;
+                        -moz-animation:labelFloat 2s 0.14s infinite , cx @time forwards;
+                        -ms-animation: labelFloat 2s 0.14s infinite , cx @time forwards;
+                        -o-animation: labelFloat 2s 0.14s infinite , cx @time forwards;
                     }
                     .rc{
                         left: 270PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0.14*2s infinite;
                     }
                     .rc-show{
                         animation: labelFloat 2s 0.14*2s infinite , rc @time forwards;
+                        -webkit-animation: labelFloat 2s 0.14*2s infinite , rc @time forwards;
+                        -moz-animation: labelFloat 2s 0.14*2s infinite , rc @time forwards;
+                        -ms-animation:  labelFloat 2s 0.14*2s infinite , rc @time forwards;
+                        -o-animation:  labelFloat 2s 0.14*2s infinite , rc @time forwards;
                     }
                     .js{
                         left: 270PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0.14*3s infinite;
                     }
                     .js-show{
                         animation: labelFloat 2s 0.14*3s infinite , js @time forwards;
+                        -webkit-animation: labelFloat 2s 0.14*3s infinite , js @time forwards;
+                        -moz-animation: labelFloat 2s 0.14*3s infinite , js @time forwards;
+                        -ms-animation:labelFloat 2s 0.14*3s infinite , js @time forwards;
+                        -o-animation: labelFloat 2s 0.14*3s infinite , js @time forwards;
                     }
                     .nq{
                         left: 270PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0.14*4s infinite;
                     }
                     .nq-show{
                         animation: labelFloat 2s 0.14*4s infinite , nq @time forwards;
+                        -webkit-animation:labelFloat 2s 0.14*4s infinite , nq @time forwards;
+                        -moz-animation:labelFloat 2s 0.14*4s infinite , nq @time forwards;
+                        -ms-animation: labelFloat 2s 0.14*4s infinite , nq @time forwards;
+                        -o-animation: labelFloat 2s 0.14*4s infinite , nq @time forwards;
                     }
                     .fx{
                         left: 270PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0.14*5s infinite;
                     }
                     .fx-show{
                         animation: labelFloat 2s 0.14*5s infinite , fx @time forwards;
+                        -webkit-animation: labelFloat 2s 0.14*5s infinite , fx @time forwards;
+                        -moz-animation: labelFloat 2s 0.14*5s infinite , fx @time forwards;
+                        -ms-animation: labelFloat 2s 0.14*5s infinite , fx @time forwards;
+                        -o-animation:labelFloat 2s 0.14*5s infinite , fx @time forwards;
                     }
                     .hk{
                         width: 184PX;
                         left: 235PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0.14*6s infinite;
                     }
                     .hk-show{
                         animation: labelFloat 2s 0.14*6s infinite , hk @time forwards;
+                        -webkit-animation:labelFloat 2s 0.14*6s infinite , hk @time forwards;
+                        -moz-animation:labelFloat 2s 0.14*6s infinite , hk @time forwards;
+                        -ms-animation: labelFloat 2s 0.14*6s infinite , hk @time forwards;
+                        -o-animation: labelFloat 2s 0.14*6s infinite , hk @time forwards;
                     }
                     .zh{
                         left: 270PX;
                         bottom: 20PX;
-                        animation: labelFloat 2s 0.14*7s infinite;
                     }
                     .zh-show{
                         animation: labelFloat 2s 0.14*7s infinite , zh @time forwards;
-                    }
-                }
+                        -webkit-animation:labelFloat 2s 0.14*7s infinite , zh @time forwards;
+                        -moz-animation:labelFloat 2s 0.14*7s infinite , zh @time forwards;
+                        -ms-animation: labelFloat 2s 0.14*7s infinite , zh @time forwards;
+                        -o-animation: labelFloat 2s 0.14*7s infinite , zh @time forwards;
+                    }                }
             }
             .abus-middle-right{
                 width: 650PX;
@@ -250,8 +282,8 @@
                 overflow: hidden;
                 position: relative;
                 .abus-middle-right-suptitle{
-                    font-size: 20PX;
-                    letter-spacing: 4PX;
+                    font-size: 18.5PX;
+                    letter-spacing: 3PX;
                     line-height: 40PX;
                     margin-top: 50PX;
                     margin-bottom: 0;

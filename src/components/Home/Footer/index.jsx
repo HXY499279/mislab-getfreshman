@@ -22,8 +22,8 @@ export default function index() {
                         <div className="footer-middle-middle-left">
                             <div className="footer-middle-middle-left-left">
                                 <span className="footer-middle-middle-left-left-title">联系我们</span>
-                                <span>报名投递</span>
-                                <span>招新咨询</span>
+                                <span><a href="">报名投递</a></span>
+                                <span><a href="">招新咨询</a></span>
                             </div>
                             <div className="footer-middle-middle-left-right">
                                 <span className="footer-middle-middle-left-right-title">我们的产品</span>

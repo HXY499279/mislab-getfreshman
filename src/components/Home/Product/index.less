@@ -77,6 +77,10 @@
         }
         .prd-left-show{
             animation: leftMove @time forwards;
+            -webkit-animation: leftMove @time forwards;
+            -moz-animation: leftMove @time forwards;
+            -ms-animation: leftMove @time forwards;
+            -o-animation: leftMove @time forwards;
         }
         .prd-right{
             width: 880PX;
@@ -91,11 +95,14 @@
                 opacity: 0;
                 .prd-right-top-left{
                     width: 280PX;
-                    height: 200PX;
+                    height: 220PX;
                     text-align: center;
                     padding: 60pX 20PX;
                     border-radius: 30PX;
                     background-color: rgb(242, 242, 242);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                     .prd-right-top-left-cpjs-title{
                         font-size: 40PX;
                         font-weight: 600;
@@ -103,19 +110,25 @@
                 }
                 .prd-right-top-right{
                     width: 540PX;
-                    height: 200PX;
+                    height: 220PX;
                     border-radius: 30PX;
-                    padding: 20pX 50PX;
+                    padding: 20pX 40PX;
                     text-align: center;
                     background-color: rgb(242, 242, 242);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                     .prd-right-top-right-cpjs-detail{
-                        height: 100%;
                         font-size: 20PX;
                     }
                 }
             }
             .prd-right-top-show{
                 animation: rightTopMove @time forwards;
+                -webkit-animation: rightTopMove @time forwards;
+                -moz-animation: rightTopMove @time forwards;
+                -ms-animation: rightTopMove @time forwards;
+                -o-animation: rightTopMove @time forwards;
             }
             .prd-right-bottom{
                 width: 100%;
@@ -125,10 +138,12 @@
                 opacity: 0;
                 display: flex;
                 justify-content: space-between;
-                background: linear-gradient(90deg, rgba(241, 242, 208, 1) 0%, rgba(177, 216, 180, 1) 100%)        }
+                background: linear-gradient(90deg, rgba(241, 242, 208, 1) 0%, rgba(177, 216, 180, 1) 100%)
+            }
                 .prd-right-bottom-left{
                     .prd-right-bottom-left-youwen{
                         height: 170PX;
+                        width: 160PX;
                     }
                 }
                 .prd-right-bottom-right{
@@ -140,17 +155,21 @@
                     .prd-right-bottom-right-h2{
                         font-size: 23PX;
                         font-weight: 550;
-                        color: rgb(101, 147, 168);
+                        color: rgb(106, 155, 113);
                         margin-top: -10PX;
                     }
                     .prd-right-bottom-right-text{
-                        margin-top: 20px;
+                        margin-top: 15px;
                         font-size: 17PX;
                     }
                 }
             }
             .prd-right-bottom-show{
                 animation: rightBottomMove @time forwards;
+                -webkit-animation: rightBottomMove @time forwards;
+                -moz-animation: rightBottomMove @time forwards;
+                -ms-animation: rightBottomMove @time forwards;
+                -o-animation: rightBottomMove @time forwards;
             }
 
         }

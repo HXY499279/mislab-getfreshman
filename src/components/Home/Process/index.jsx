@@ -6,6 +6,10 @@ import liucheng2 from '../../../assets/liucheng2.png'
 import liucheng3 from '../../../assets/liucheng3.png'
 import jiaruwomen from '../../../assets/jiaru.png'
 
+const haveNoContent = () => {
+    alert("Comming Soon")
+}
+
 export default function index() {
     return (
         <div className="prc-bgc">
@@ -64,11 +68,13 @@ export default function index() {
                     </div>
                 </div>
                 <div className="prc-middle-1">
-                    <img
-                        src={jiaruwomen}
-                        alt="图片"
-                        className="prc-middle-1-img"
-                    />
+                    <a href="">
+                        <img
+                            src={jiaruwomen}
+                            alt="图片"
+                            className="prc-middle-1-img"
+                        />
+                    </a>
                 </div>
                 <div className="prc-middle-2">
                     <div className="prc-middle-2-title">
@@ -80,7 +86,7 @@ export default function index() {
                         <span className="prc-bottom-text">报名投递</span>
                     </div>
                     <div className="prc-bottom-item">
-                        <span className="prc-bottom-text">学员系统</span>
+                        <span className="prc-bottom-text" onClick={haveNoContent}>学员系统</span>
                     </div>
                     <div className="prc-bottom-item">
                         <span className="prc-bottom-text">招新咨询</span>
