@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2703969 */
-  src: url('iconfont.woff2?t=1627528713554') format('woff2'),
-       url('iconfont.woff?t=1627528713554') format('woff'),
-       url('iconfont.ttf?t=1627528713554') format('truetype');
+  src: url('iconfont.woff2?t=1627550172448') format('woff2'),
+       url('iconfont.woff?t=1627550172448') format('woff'),
+       url('iconfont.ttf?t=1627550172448') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shangjiantou:before {
+  content: "\e65c";
 }
 
 .icon-V:before {

@@ -1,0 +1,48 @@
+// 动画
+@keyframes buttonDance {
+    0% {
+        transform: translateY(0PX);
+    }
+    50% {
+        transform: translateY(-7PX);
+    }
+    100% {
+        transform: translateY(0PX);
+    }
+}
+
+#bd{
+    // 根据视频比例调整
+    min-width: 1519PX;
+}
+.back-to-top-icon {
+    width:40PX;
+    height: $width;
+    display: flex;
+    justify-content: center;
+    a
+    position: fixed;
+    top: calc(50% + 250px);
+    left: calc(50% + 695px);
+    color: rgb(26, 25, 25) !important;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 2px 10px 0 rgb(31 35 41 / 10%);
+    transition: all .4s;
+    animation: buttonDance 2S cubic-bezier(0.215, 0.75, 0.5, 1) infinite;
+    -webkit-animation: buttonDance 2S infinite;
+    -moz-animation: buttonDance 2S infinite;
+    -ms-animation: buttonDance 2S infinite;
+    -o-animation: buttonDance 2S infinite;
+    .icon{
+        font-size: 20PX;
+    }
+}
+// .back-to-top-icon-show{
+//     .back-to-top-icon();
+// }
+.back-to-top-icon-hidden{
+    // .back-to-top-icon();
+    opacity: 0;
+    pointer-events: none;
+}
