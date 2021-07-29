@@ -45,7 +45,7 @@ export default function index(funs) {
                             JOIN MISLAB
                         </div>
                         <Button size="large" className="mainTitle-button">
-                        <a href="#page5"><span className="mainTitle-button-words">加入我们</span></a>
+                            <span className="mainTitle-button-words">加入我们</a></span>
                         </Button>
                     </div>
                 </div>
