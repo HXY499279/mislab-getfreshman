@@ -1,0 +1,439 @@
+// 动画
+@keyframes toLeft {
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-830PX);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes toLeft {
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-830PX);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+}
+@keyframes toRight {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(870PX);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes toRight {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(870PX);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.member-bgc{
+    width: 100%;
+    height: 721PX;
+    background-color: white;
+    .member-wrap{
+        width: 1400PX;
+        height: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        .member-top{
+            margin: 50PX 0;
+            text-align: center;
+            span{
+                font-size: 30PX;
+            }
+        }
+        .member-middle{
+            width: 100%;
+            height: 500PX;
+            display: flex;
+            justify-content: space-between;
+            .member-middle-left{
+                .member-middle-left-top{
+                    margin-bottom: 40PX;
+                    span{
+                        font-size: 40PX;
+                        font-weight: 600;
+                    }
+                }
+                .member-middle-left-bottom{
+                    width: 600PX;
+                    border-radius: 10PX;
+                    overflow: hidden;
+                    .member-middle-left-bottom-vedio{
+                        width: 100%;
+                    }
+                }
+            }
+            .member-middle-right{
+                width: 700PX;
+                height: 100%;
+                position: relative;
+                overflow: hidden;
+                .member-middle-right-toLeft{
+                    width: 130PX;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    position: absolute;
+                    right: -130PX;
+                    bottom: 0;
+                    .member-middle-right-toLeft-member-0{
+                        animation: toLeft 20s linear infinite;
+                        -webkit-animation: toLeft 20s linear infinite;
+                        -moz-animation: toLeft 20s linear infinite;
+                        -ms-animation: toLeft 20s linear infinite;
+                        -o-animation: toLeft 20s linear infinite;
+                    }
+                    .member-middle-right-toLeft-member-1{
+                        animation: toLeft 18s linear infinite;
+                        -webkit-animation: toLeft 18s linear infinite;
+                        -moz-animation:  toLeft 18s linear infinite;
+                        -ms-animation:  toLeft 18s linear infinite;
+                        -o-animation:  toLeft 18s linear infinite;
+                    }
+                    .member-middle-right-toLeft-member-2{
+                        animation: toLeft 12s linear infinite;
+                        -webkit-animation:  toLeft 18s linear infinite;
+                        -moz-animation: toLeft 18s linear infinite;
+                        -ms-animation:  toLeft 18s linear infinite;
+                        -o-animation: toLeft 18s linear infinite;
+                    }
+                    .member-middle-right-toLeft-member-3{
+                        animation: toLeft 13s linear infinite;
+                        -webkit-animation: toLeft 13s linear infinite;
+                        -moz-animation: iconMove 1.3s infinite;
+                        -ms-animation: iconMove 1.3s infinite;
+                        -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-4{
+                        animation: toLeft 16s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-5{
+                        animation: toLeft 10s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-6{
+                        animation: toLeft 22s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-7{
+                        animation: toLeft 19s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-8{
+                        animation: toLeft 15s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-9{
+                        animation: toLeft 17s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-10{
+                        animation: toLeft 11s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-11{
+                        animation: toLeft 15s 3s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-12{
+                        animation: toLeft 10s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-13{
+                        animation: toLeft 14s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-14{
+                        animation: toLeft 19s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-15{
+                        animation: toLeft 22s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-16{
+                        animation: toLeft 21s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-17{
+                        animation: toLeft 20s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-18{
+                        animation: toLeft 14s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-19{
+                        animation: toLeft 19s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-20{
+                        animation: toLeft 17s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-21{
+                        animation: toLeft 20s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toLeft-member-22{
+                        animation: toLeft 18s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                }
+                .member-middle-right-toRight{
+                    width: 170PX;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    position: absolute;
+                    left: -170PX;
+                    bottom: 0;
+                    .member-middle-right-toRight-member-0{
+                        animation: toRight 10s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-1{
+                        animation: toRight 16s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-2{
+                        animation: toRight 15s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-3{
+                        animation: toRight 17s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-4{
+                        animation: toRight 11s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-5{
+                        animation: toRight 12s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-6{
+                        animation: toRight 15s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-7{
+                        animation: toRight 19s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-8{
+                        animation: toRight 16s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-9{
+                        animation: toRight 17s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-10{
+                        animation: toRight 11s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-11{
+                        animation: toRight 14s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-12{
+                        animation: toRight 16s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-13{
+                        animation: toRight 15s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-14{
+                        animation: toRight 14s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-15{
+                        animation: toRight 13s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-16{
+                        animation: toRight 14s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-17{
+                        animation: toRight 15s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-18{
+                        animation: toRight 23s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-19{
+                        animation: toRight 11s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-20{
+                        animation: toRight 20s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-21{
+                        animation: toRight 17s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                    .member-middle-right-toRight-member-22{
+                        animation: toRight 11s linear infinite;
+                                    -webkit-animation: iconMove 1.3s infinite;
+            -moz-animation: iconMove 1.3s infinite;
+            -ms-animation: iconMove 1.3s infinite;
+            -o-animation: iconMove 1.3s infinite;
+                    }
+                }
+            }
+        }
+    }
+}
