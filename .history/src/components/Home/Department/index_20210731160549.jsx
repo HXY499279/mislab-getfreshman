@@ -9,12 +9,20 @@ import chanpin from '../../../assets/chanpin.png'
 import jiqixuexi from '../../../assets/jiqixuexi.png'
 import anzhuo from '../../../assets/anzhuo.png'
 
+const contentStyle = {
+    height: '160px',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: '#364d79',
+};
+
 const date = [
     {
         pic: qianduan,
         h1: "Web开发部",
         text: `前端即网站前台部分，运行在PC端，移动端等浏览器上展现给用户浏览的网页。
-        前端开发人员可以使用完美的动效设计和前端技术，给用户带来极高的页面视觉体验和用户交互体验。`,
+        前端开发人员可以使用完美的动效设计和前端技术，给用户带来的页面视觉和用户体验。`,
         color: ""
     },
     {

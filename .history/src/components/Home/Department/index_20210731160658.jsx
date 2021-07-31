@@ -9,6 +9,14 @@ import chanpin from '../../../assets/chanpin.png'
 import jiqixuexi from '../../../assets/jiqixuexi.png'
 import anzhuo from '../../../assets/anzhuo.png'
 
+const contentStyle = {
+    height: '160px',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: '#364d79',
+};
+
 const date = [
     {
         pic: qianduan,
