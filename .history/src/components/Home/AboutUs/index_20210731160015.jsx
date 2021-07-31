@@ -56,7 +56,7 @@ export default function Aboutus(props) {
                             <Image
                                 src={bgpic}
                                 className="abus-middle-right-bgpic"
-                                alt="如果图片没有加载处理，请同学们把学长学姐脑部好看一点！拜托了！" 
+                                alt="" 
                             />
                         </div>
                     </div>
