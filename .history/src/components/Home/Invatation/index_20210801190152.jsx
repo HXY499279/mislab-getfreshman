@@ -7,41 +7,34 @@ import './index.css'
 import '../../../static/iconfont.css'
 import "antd/dist/antd.css"
 
-const playVideo = () => {
+const playVideo = () =>  {
     document.getElementById('mask').style.display = 'none';
     var video = document.querySelector('#video');
     video.play();
-}
+  }
 
-export default function index(props) {
-    const { switchPage } = props.funs
-    const { stateIn } = props.InState
-    console.log(stateIn)
+export default function index(funs) {
+    const { switchPage } = funs.funs
     return (
         <Fragment>
             <div className="mislabVideoWrap">
-                {
-                    stateIn ?
-                        <video
-                            src={"http://qwu8f72zr.hn-bkt.clouddn.com/shouyeshipin.mp4"}
-                            muted
-                            preload="auto"
-                            tabIndex="-1"
-                            autoPlay
-                            loop
-                            id="video"
-                            className="mislabVideo"
-                            poster="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
-                            webkit-playsinline="true"
-                            playsinline="true"
-                        />
-                        :
-                        <img
-                            src="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
-                            alt="请同学脑补一张背景图！麻烦好看点！"
-                            className="mislabImg"
-                        />
-                }
+                {/* <video
+                    src={"http://qwu8f72zr.hn-bkt.clouddn.com/shouyeshipin.mp4"}
+                    muted
+                    preload="auto"
+                    tabIndex="-1"
+                    autoPlay
+                    loop
+                    id="video"
+                    className="mislabVideo"
+                    poster="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
+                    webkit-playsinline="true"
+                    playsinline="true"
+                /> */}
+                <img
+                 src="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
+                  alt=""
+                   />
                 <div className="cloth" />
                 <div className="nav">
                     <div className="nav-left">

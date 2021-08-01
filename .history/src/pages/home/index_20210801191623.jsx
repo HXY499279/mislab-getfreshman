@@ -44,8 +44,6 @@ export default function Home() {
     const [stateCpBottom, setCpBottomState] = useState(false)
 
     const abusCpAnimationShow = () => {
-        // Invatation页面
-        setInstate(false)
         // 关于我们页面
         setAbusBState(true)
         setAbusMState(true)
@@ -92,24 +90,24 @@ export default function Home() {
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
                 //在微信中打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
+                window.onload = message.info.bind(this,"手机访问，横屏体验更加噢！",[3])
                 abusCpAnimationShow()
             } else if (ua.match(/WeiBo/i) == "weibo") {
                 //在新浪微博客户端打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
+                window.onload = message.info.bind(this,"手机访问，横屏体验更加噢！",[3])
                 abusCpAnimationShow()
             } else if (ua.match(/QQ/i) == "qq") {
                 //在QQ空间打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
+                window.onload = message.info.bind(this,"手机访问，横屏体验更加噢！",[3])
                 abusCpAnimationShow()
 
             } else if (browser.versions.ios) {
                 //是否在IOS浏览器打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
+                window.onload = message.info.bind(this,"手机访问，横屏体验更加噢！",[3])
                 abusCpAnimationShow()
             } else if (browser.versions.android) {
                 //是否在安卓浏览器打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
+                window.onload = message.info.bind(this,"手机访问，横屏体验更加噢！",[3])
                 abusCpAnimationShow()
             }
         } else {
@@ -169,7 +167,7 @@ export default function Home() {
     // console.log(stateD)
     return (
         <div id="bd">
-            <Invatation funs={funs} InState={InState} />
+            <Invatation funs={funs} />
             <a id="page1" /><AboutUs abusState={abusState} />
             <a id="page2" /><Department />
             <a id="page3" /><Product prdState={prdState} />

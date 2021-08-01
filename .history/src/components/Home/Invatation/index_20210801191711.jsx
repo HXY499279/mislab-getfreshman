@@ -16,32 +16,27 @@ const playVideo = () => {
 export default function index(props) {
     const { switchPage } = props.funs
     const { stateIn } = props.InState
-    console.log(stateIn)
     return (
         <Fragment>
             <div className="mislabVideoWrap">
-                {
-                    stateIn ?
-                        <video
-                            src={"http://qwu8f72zr.hn-bkt.clouddn.com/shouyeshipin.mp4"}
-                            muted
-                            preload="auto"
-                            tabIndex="-1"
-                            autoPlay
-                            loop
-                            id="video"
-                            className="mislabVideo"
-                            poster="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
-                            webkit-playsinline="true"
-                            playsinline="true"
-                        />
-                        :
-                        <img
-                            src="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
-                            alt="请同学脑补一张背景图！麻烦好看点！"
-                            className="mislabImg"
-                        />
-                }
+                <video
+                    src={"http://qwu8f72zr.hn-bkt.clouddn.com/shouyeshipin.mp4"}
+                    muted
+                    preload="auto"
+                    tabIndex="-1"
+                    autoPlay
+                    loop
+                    id="video"
+                    className="mislabVideo"
+                    poster="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
+                    webkit-playsinline="true"
+                    playsinline="true"
+                />
+                {/* <img
+                    src="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
+                    alt=""
+                    className="mislabImg"
+                /> */}
                 <div className="cloth" />
                 <div className="nav">
                     <div className="nav-left">

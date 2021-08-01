@@ -16,7 +16,7 @@ const playVideo = () => {
 export default function index(props) {
     const { switchPage } = props.funs
     const { stateIn } = props.InState
-    console.log(stateIn)
+    console.log(state)
     return (
         <Fragment>
             <div className="mislabVideoWrap">

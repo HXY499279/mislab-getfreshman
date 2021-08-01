@@ -16,7 +16,6 @@ const playVideo = () => {
 export default function index(props) {
     const { switchPage } = props.funs
     const { stateIn } = props.InState
-    console.log(stateIn)
     return (
         <Fragment>
             <div className="mislabVideoWrap">
@@ -37,11 +36,13 @@ export default function index(props) {
                         />
                         :
                         <img
-                            src="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
-                            alt="请同学脑补一张背景图！麻烦好看点！"
-                            className="mislabImg"
-                        />
+                        src="https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
+                        alt=""
+                        className="mislabImg"
+                    />
                 }
+
+
                 <div className="cloth" />
                 <div className="nav">
                     <div className="nav-left">
