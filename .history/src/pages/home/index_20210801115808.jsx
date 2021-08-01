@@ -51,7 +51,9 @@ export default function Home() {
         setCpTopState(true)
         setCpBottomState(true)
     }
-
+    useEffect(() => {
+        message.info("手机访问，横屏体验更加噢！")
+    }, [])
     if (stateAbusB !== true && stateAbusM !== true && stateAbusS !== true && stateCpBottom !== true && stateCpTop !== true) {
         var browser = {
             versions: function () {
@@ -110,7 +112,6 @@ export default function Home() {
             }
         } else {
             //否则就是PC浏览器打开
-
             window.onscroll = () => {
                 console.log(document.documentElement.scrollTop)
                 // 回到顶部案件

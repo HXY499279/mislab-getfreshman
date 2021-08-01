@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import { message } from 'antd'
 import {
     Invatation,
@@ -110,6 +110,7 @@ export default function Home() {
             }
         } else {
             //否则就是PC浏览器打开
+            message.info("手机访问，横屏体验更加噢！")
 
             window.onscroll = () => {
                 console.log(document.documentElement.scrollTop)

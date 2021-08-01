@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { message } from 'antd'
+import React, { useState, useRef } from 'react'
+import {message} from 'antd'
 import {
     Invatation,
     AboutUs,
@@ -53,6 +53,7 @@ export default function Home() {
     }
 
     if (stateAbusB !== true && stateAbusM !== true && stateAbusS !== true && stateCpBottom !== true && stateCpTop !== true) {
+        
         var browser = {
             versions: function () {
                 var u = navigator.userAgent, app = navigator.appVersion;
@@ -90,27 +91,26 @@ export default function Home() {
                 //在微信中打开
                 message.info("手机访问，横屏体验更加噢！")
                 abusCpAnimationShow()
-            } else if (ua.match(/WeiBo/i) == "weibo") {
+            }   else if (ua.match(/WeiBo/i) == "weibo") {
                 //在新浪微博客户端打开
                 message.info("手机访问，横屏体验更加噢！")
                 abusCpAnimationShow()
-            } else if (ua.match(/QQ/i) == "qq") {
+            }   else if (ua.match(/QQ/i) == "qq") {
                 //在QQ空间打开
                 message.info("手机访问，横屏体验更加噢！")
                 abusCpAnimationShow()
 
-            } else if (browser.versions.ios) {
+            }   else if (browser.versions.ios) {
                 //是否在IOS浏览器打开
                 message.info("手机访问，横屏体验更加噢！")
                 abusCpAnimationShow()
-            } else if (browser.versions.android) {
+            }   else if (browser.versions.android) {
                 //是否在安卓浏览器打开
                 message.info("手机访问，横屏体验更加噢！")
                 abusCpAnimationShow()
             }
         } else {
             //否则就是PC浏览器打开
-
             window.onscroll = () => {
                 console.log(document.documentElement.scrollTop)
                 // 回到顶部案件

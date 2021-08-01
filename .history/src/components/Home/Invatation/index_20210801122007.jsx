@@ -19,7 +19,6 @@ export default function index(funs) {
                     autoPlay
                     loop
                     className="mislabVideo"
-                    x-webkit-airplay="allow"
                 />
                 <div className="cloth" />
                 <div className="nav">

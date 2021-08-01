@@ -53,6 +53,9 @@ export default function Home() {
     }
 
     if (stateAbusB !== true && stateAbusM !== true && stateAbusS !== true && stateCpBottom !== true && stateCpTop !== true) {
+        useEffect(() => {
+            message.info("手机访问，横屏体验更加噢！")
+        }, [])
         var browser = {
             versions: function () {
                 var u = navigator.userAgent, app = navigator.appVersion;

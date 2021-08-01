@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import { Button, Image } from 'antd';
 // 引入外部资源
 import logo from '../../../assets/logo.png'
@@ -9,18 +9,14 @@ import "antd/dist/antd.css"
 
 
 export default function index(funs) {
-    const { switchPage } = funs.funs
+    const {switchPage} = funs.funs
     return (
         <Fragment>
             <div className="mislabVideoWrap">
                 <video
-                    src={"http://qwu8f72zr.hn-bkt.clouddn.com/shouyeshipin.mp4"}
-                    muted
-                    autoPlay
-                    loop
-                    className="mislabVideo"
-                    x-webkit-airplay="allow"
-                />
+                 src={"http://qwu8f72zr.hn-bkt.clouddn.com/shouyeshipin.mp4"}
+                  muted
+                   autoPlay loop className="mislabVideo" />
                 <div className="cloth" />
                 <div className="nav">
                     <div className="nav-left">
@@ -52,11 +48,11 @@ export default function index(funs) {
                             JOIN MISLAB
                         </div>
                         <Button size="large" className="mainTitle-button">
-                            <a href="#page5"><span className="mainTitle-button-words">加入我们</span></a>
+                        <a href="#page5"><span className="mainTitle-button-words">加入我们</span></a>
                         </Button>
                     </div>
                 </div>
-                <div className="sub-Icon" onClick={switchPage.bind(this, 810)}>
+                <div className="sub-Icon"  onClick={switchPage.bind(this,810)}>
                     <span className="sub-Icon-iconfont">
                         <span className="iconfont">&#xe656;</span>
                     </span>

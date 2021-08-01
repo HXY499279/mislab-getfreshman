@@ -110,7 +110,10 @@ export default function Home() {
             }
         } else {
             //否则就是PC浏览器打开
-
+            message.info("手机访问，横屏体验更加噢！")
+            useEffect(() => {
+                effect
+            }, [])
             window.onscroll = () => {
                 console.log(document.documentElement.scrollTop)
                 // 回到顶部案件
