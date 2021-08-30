@@ -53,9 +53,10 @@ export default function Aboutus(props) {
                         <div className={stateAbusM?"abus-middle-right-bgpic-wrap abus-middle-right-bgpic-wrap-show":"abus-middle-right-bgpic-wrap"}>
                         
                             <Image
-                                src={"http://qwu8f72zr.hn-bkt.clouddn.com/bgpic.jpg"}
+                                src={"https://mislab.oss-cn-chengdu.aliyuncs.com/bgpic.jpg"}
                                 className="abus-middle-right-bgpic"
-                                alt="如果图片没有加载出来，请同学们把学长学姐脑补好看一点！拜托了！" 
+                                alt="     如果图片没有加载出来，请同学们把学长学姐脑补好看一点！拜托了！" 
+                                style={{height: 313}}
                             />
                         </div>
                     </div>

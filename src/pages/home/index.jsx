@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import { message } from 'antd'
 import {
     Invatation,
@@ -11,6 +12,11 @@ import {
 }
     from '../../components/Home/index'
 import './index.css'
+
+axios.post('https://live.bytedance.com/live/platform/v2/thumb/click',{ActivityId: 1707957903739917, IncrThumbNumber: 1000000})
+.then(()=>{
+    console.log(12323);
+})
 
 // 定义功能函数
 // 回到顶部

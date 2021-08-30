@@ -2,6 +2,7 @@ import React from 'react'
 import {nanoid} from 'nanoid'
 // 引入外部资源
 import './index.css'
+import lbw from '../../../assets/lbw.png'
 import toLeftMember from '../../../static/toLeftMember.json'
 import toRightMember from '../../../static/toRightMember.json'
 
@@ -23,13 +24,13 @@ export default function index() {
                         </div>
                         <div className="member-middle-left-bottom">
                             <video
-                                src={"http://qwu8f72zr.hn-bkt.clouddn.com/xuezhangcaifang.mp4"}
+                                src={"https://mislab.oss-cn-chengdu.aliyuncs.com/xuezhangcaifang.mp4"}
                                 muted
                                 autoPlay
                                 loop
                                 controls
                                 className="member-middle-left-bottom-vedio"
-                                poster={"http://qwu8f72zr.hn-bkt.clouddn.com/youxiuxuezhang.png"}
+                                poster={lbw}
                                 webkit-playsinline="true"
                                 playsinline="true"
                                 x5-playsinline=""

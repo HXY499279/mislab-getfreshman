@@ -23,7 +23,7 @@ export default function index(props) {
                 {
                     stateIn ?
                         <video
-                            src={"http://qwu8f72zr.hn-bkt.clouddn.com/shouyeshipin.mp4"}
+                            src={"https://mislab.oss-cn-chengdu.aliyuncs.com/shouyeshipin.mp4"}
                             muted
                             preload="auto"
                             tabIndex="-1"
