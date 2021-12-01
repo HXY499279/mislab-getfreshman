@@ -13,11 +13,6 @@ import {
     from '../../components/Home/index'
 import './index.css'
 
-axios.post('https://live.bytedance.com/live/platform/v2/thumb/click',{ActivityId: 1707957903739917, IncrThumbNumber: 1000000})
-.then(()=>{
-    console.log(12323);
-})
-
 // 定义功能函数
 // 回到顶部
 const back = () => {
@@ -121,7 +116,6 @@ export default function Home() {
         } else {
             //否则就是PC浏览器打开
             window.onscroll = () => {
-                console.log(document.documentElement.scrollTop)
                 // 回到顶部案件
                 if (document.documentElement.scrollTop >= 960) {
                     setDState(true)

@@ -27,36 +27,36 @@ export default function Aboutus(props) {
                 <div className="abus-middle">
                     <div className="abus-middle-left">
                         <div className="abus-middle-left-title">
-                            <div className={stateAbusB?"abus-middle-left-suptitle abus-middle-left-suptitle-show":"abus-middle-left-suptitle"}>
+                            <div className={stateAbusB ? "abus-middle-left-suptitle abus-middle-left-suptitle-show" : "abus-middle-left-suptitle"}>
                                 关于我们
                             </div>
-                            <pre className={stateAbusB?"abus-middle-left-subtitle abus-middle-left-subtitle-show":"abus-middle-left-subtitle"}>
+                            <pre className={stateAbusB ? "abus-middle-left-subtitle abus-middle-left-subtitle-show" : "abus-middle-left-subtitle"}>
                                 {introducing}
                             </pre>
                         </div>
                         <div className="abus-middle-left-subtitle-label">
-                            <img src={us} alt="us" className="abus-middle-left-us"/>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little bm-show":"abus-middle-left-subtitle-label-little bm"}>百名工程师</span>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little cx-show":"abus-middle-left-subtitle-label-little cx"}>创新</span>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little rc-show":"abus-middle-left-subtitle-label-little rc"}>人才培养</span>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little js-show":"abus-middle-left-subtitle-label-little js"}>技术应用</span>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little nq-show":"abus-middle-left-subtitle-label-little nq"}>年轻</span>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little fx-show":"abus-middle-left-subtitle-label-little fx"}>分享日</span>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little hk-show":"abus-middle-left-subtitle-label-little hk"}>黑客马拉松文化周</span>
-                            <span className={stateAbusS?"abus-middle-left-subtitle-label-little zh-show":"abus-middle-left-subtitle-label-little zh"}>周会</span>
+                            <img src={us} alt="us" className="abus-middle-left-us" />
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little bm-show" : "abus-middle-left-subtitle-label-little bm"}>百名工程师</span>
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little cx-show" : "abus-middle-left-subtitle-label-little cx"}>创新</span>
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little rc-show" : "abus-middle-left-subtitle-label-little rc"}>人才培养</span>
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little js-show" : "abus-middle-left-subtitle-label-little js"}>技术应用</span>
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little nq-show" : "abus-middle-left-subtitle-label-little nq"}>年轻</span>
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little fx-show" : "abus-middle-left-subtitle-label-little fx"}>分享日</span>
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little hk-show" : "abus-middle-left-subtitle-label-little hk"}>黑客马拉松文化周</span>
+                            <span className={stateAbusS ? "abus-middle-left-subtitle-label-little zh-show" : "abus-middle-left-subtitle-label-little zh"}>周会</span>
                         </div>
                     </div>
                     <div className="abus-middle-right">
-                        <pre className={stateAbusB?"abus-middle-right-suptitle abus-middle-right-suptitle-show":"abus-middle-right-suptitle"}>
+                        <pre className={stateAbusB ? "abus-middle-right-suptitle abus-middle-right-suptitle-show" : "abus-middle-right-suptitle"}>
                             {des}
                         </pre>
-                        <div className={stateAbusM?"abus-middle-right-bgpic-wrap abus-middle-right-bgpic-wrap-show":"abus-middle-right-bgpic-wrap"}>
-                        
+                        <div className={stateAbusM ? "abus-middle-right-bgpic-wrap abus-middle-right-bgpic-wrap-show" : "abus-middle-right-bgpic-wrap"}>
+
                             <Image
                                 src={"https://mislab.oss-cn-chengdu.aliyuncs.com/bgpic.jpg"}
                                 className="abus-middle-right-bgpic"
-                                alt="     如果图片没有加载出来，请同学们把学长学姐脑补好看一点！拜托了！" 
-                                style={{height: 313}}
+                                alt="     如果图片没有加载出来，请同学们把学长学姐脑补好看一点！拜托了！"
+                                style={{ height: 313 }}
                             />
                         </div>
                     </div>
