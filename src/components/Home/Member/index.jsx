@@ -3,6 +3,7 @@ import {nanoid} from 'nanoid'
 // 引入外部资源
 import './index.css'
 import lbw from '../../../assets/lbw.png'
+import xuezhangcaifang from '../../../assets/xuezhangcaifang.mp4'
 import toLeftMember from '../../../static/toLeftMember.json'
 import toRightMember from '../../../static/toRightMember.json'
 
@@ -24,7 +25,8 @@ export default function index() {
                         </div>
                         <div className="member-middle-left-bottom">
                             <video
-                                src={"https://mislab.oss-cn-chengdu.aliyuncs.com/xuezhangcaifang.mp4"}
+                                src={xuezhangcaifang}
+                                // src={"https://mislab.oss-cn-chengdu.aliyuncs.com/xuezhangcaifang.mp4"}
                                 muted
                                 autoPlay
                                 loop

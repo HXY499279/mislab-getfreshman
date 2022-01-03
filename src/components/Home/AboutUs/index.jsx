@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Image } from 'antd'
 //引入外部资源
 import us from '../../../assets/us.png'
+import members from '../../../assets/members.png'
 import './index.css'
 
 const introducing = `信管工作室成立于2008年
@@ -53,7 +54,8 @@ export default function Aboutus(props) {
                         <div className={stateAbusM ? "abus-middle-right-bgpic-wrap abus-middle-right-bgpic-wrap-show" : "abus-middle-right-bgpic-wrap"}>
 
                             <Image
-                                src={"https://mislab.oss-cn-chengdu.aliyuncs.com/bgpic.jpg"}
+                                src={members}
+                                // src={"https://mislab.oss-cn-chengdu.aliyuncs.com/bgpic.jpg"}
                                 className="abus-middle-right-bgpic"
                                 alt="     如果图片没有加载出来，请同学们把学长学姐脑补好看一点！拜托了！"
                                 style={{ height: 313 }}

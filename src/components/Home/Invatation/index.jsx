@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button, Image } from 'antd';
 // 引入外部资源
 import logo from '../../../assets/logo.png'
+import shouyeshipin from '../../../assets/shouyeshipin-little.mp4'
 import './index.css'
 import '../../../static/iconfont.css'
 import "antd/dist/antd.css"
@@ -23,7 +24,8 @@ export default function index(props) {
                 {
                     stateIn ?
                         <video
-                            src={"https://mislab.oss-cn-chengdu.aliyuncs.com/shouyeshipin.mp4"}
+                            // src={"https://mislab.oss-cn-chengdu.aliyuncs.com/shouyeshipin.mp4"}
+                            src={shouyeshipin}
                             muted
                             preload="auto"
                             tabIndex="-1"
