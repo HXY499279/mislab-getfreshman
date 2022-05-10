@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "./static/css/main.298826e5.chunk.css",
+    "main.js": "./static/js/main.0be36050.chunk.js",
+    "main.js.map": "./static/js/main.0be36050.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b6e1b5c9.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b6e1b5c9.js.map",
+    "static/css/2.f54be16e.chunk.css": "./static/css/2.f54be16e.chunk.css",
+    "static/js/2.31a9cfc3.chunk.js": "./static/js/2.31a9cfc3.chunk.js",
+    "static/js/2.31a9cfc3.chunk.js.map": "./static/js/2.31a9cfc3.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.f54be16e.chunk.css.map": "./static/css/2.f54be16e.chunk.css.map",
+    "static/css/main.298826e5.chunk.css.map": "./static/css/main.298826e5.chunk.css.map",
+    "static/js/2.31a9cfc3.chunk.js.LICENSE.txt": "./static/js/2.31a9cfc3.chunk.js.LICENSE.txt",
+    "static/media/anzhuo.48c79b63.png": "./static/media/anzhuo.48c79b63.png",
+    "static/media/chanpin.0a934026.png": "./static/media/chanpin.0a934026.png",
+    "static/media/erp.a52c6f75.png": "./static/media/erp.a52c6f75.png",
+    "static/media/houduan.e236a33d.png": "./static/media/houduan.e236a33d.png",
+    "static/media/iconfont.css": "./static/media/iconfont.e0f4e6c6.ttf",
+    "static/media/jiaru.8e18e74e.png": "./static/media/jiaru.8e18e74e.png",
+    "static/media/jiqixuexi.b66f2646.png": "./static/media/jiqixuexi.b66f2646.png",
+    "static/media/lbw.de567d59.png": "./static/media/lbw.de567d59.png",
+    "static/media/liucheng1.1d415af1.png": "./static/media/liucheng1.1d415af1.png",
+    "static/media/liucheng2.fac53783.png": "./static/media/liucheng2.fac53783.png",
+    "static/media/liucheng3.b2ac42a7.png": "./static/media/liucheng3.b2ac42a7.png",
+    "static/media/logo.d32e06fc.png": "./static/media/logo.d32e06fc.png",
+    "static/media/logo1.adeb5de1.png": "./static/media/logo1.adeb5de1.png",
+    "static/media/members.ddaf2e34.png": "./static/media/members.ddaf2e34.png",
+    "static/media/qianduan.36806750.png": "./static/media/qianduan.36806750.png",
+    "static/media/qrcode.47167a54.png": "./static/media/qrcode.47167a54.png",
+    "static/media/shouyeshipin-little.d7167e47.mp4": "./static/media/shouyeshipin-little.d7167e47.mp4",
+    "static/media/us.7e49b8c3.png": "./static/media/us.7e49b8c3.png",
+    "static/media/xuezhangcaifang.8e21cd7d.mp4": "./static/media/xuezhangcaifang.8e21cd7d.mp4",
+    "static/media/youwen.4724cf1a.png": "./static/media/youwen.4724cf1a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6e1b5c9.js",
+    "static/css/2.f54be16e.chunk.css",
+    "static/js/2.31a9cfc3.chunk.js",
+    "static/css/main.298826e5.chunk.css",
+    "static/js/main.0be36050.chunk.js"
+  ]
+}
