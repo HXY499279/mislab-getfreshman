@@ -91,27 +91,25 @@ export default function Home() {
 
         if (browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
             var ua = navigator.userAgent.toLowerCase();//获取判断用的对象
+            const androidOpr = () => {
+                window.location.href = "http://hxy499.vip:3005/"
+                abusCpAnimationShow()
+            }
             if (ua.match(/MicroMessenger/i) == "micromessenger") {
                 //在微信中打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
-                abusCpAnimationShow()
+                androidOpr()
             } else if (ua.match(/WeiBo/i) == "weibo") {
                 //在新浪微博客户端打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
-                abusCpAnimationShow()
+                androidOpr()
             } else if (ua.match(/QQ/i) == "qq") {
                 //在QQ空间打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
-                abusCpAnimationShow()
-
+                androidOpr()
             } else if (browser.versions.ios) {
                 //是否在IOS浏览器打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
-                abusCpAnimationShow()
+                androidOpr()
             } else if (browser.versions.android) {
                 //是否在安卓浏览器打开
-                window.onload = message.info.bind(this, "手机访问，横屏体验更加噢！", [3])
-                abusCpAnimationShow()
+                androidOpr()
             }
         } else {
             //否则就是PC浏览器打开

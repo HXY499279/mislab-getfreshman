@@ -41,7 +41,7 @@ export default function index(props) {
                         </div>
                         <div className="prd-right-top-right">
                             <span className="prd-right-top-right-cpjs-detail">
-                                工作室目前主要有六个项目。<br />分别是ERP虚拟运营系统，邮问必答，基于大数据的骨质质量评估系统，路径规划系统，智能广告识别项目，作业系统，以及其他小项目，用于保证工作室同学手里都可以利用项目进行实战学习。
+                                工作室目前主要有三个项目。<br />分别是邮问必答、ERP虚拟运营系统、物流路径规划系统，用于保证工作室同学手里都可以利用项目进行实战学习。
                             </span>
                         </div>
                     </div>

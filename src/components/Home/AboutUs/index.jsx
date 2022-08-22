@@ -2,7 +2,20 @@ import React, { useState } from 'react'
 import { Image } from 'antd'
 //引入外部资源
 import us from '../../../assets/us.png'
-import members from '../../../assets/members.png'
+import members from '../../../assets/us/members.png'
+import members1 from '../../../assets/us/1.JPG'
+import members2 from '../../../assets/us/2.JPG'
+import members3 from '../../../assets/us/3.JPG'
+import members4 from '../../../assets/us/4.JPG'
+import members5 from '../../../assets/us/5.JPG'
+import members6 from '../../../assets/us/6.JPG'
+import members7 from '../../../assets/us/7.JPG'
+import members8 from '../../../assets/us/8.JPG'
+import members9 from '../../../assets/us/9.JPG'
+import members10 from '../../../assets/us/10.JPG'
+import members11 from '../../../assets/us/11.JPG'
+import members12 from '../../../assets/us/12.JPG'
+import members13 from '../../../assets/us/13.JPG'
 import './index.css'
 
 const introducing = `信管工作室成立于2008年
@@ -20,6 +33,8 @@ const des = `信管工作室永远都是一个温暖积极的大家庭
 // 因为这里，是希望撒下的地方，是种子发芽成长的地方，是我们向往的地方
 
 export default function Aboutus(props) {
+    const [visible, setVisible] = useState(false)
+
     // 得到关于我们页面动画的状态
     let { stateAbusB, stateAbusM, stateAbusS } = props.abusState
     return (
@@ -52,14 +67,32 @@ export default function Aboutus(props) {
                             {des}
                         </pre>
                         <div className={stateAbusM ? "abus-middle-right-bgpic-wrap abus-middle-right-bgpic-wrap-show" : "abus-middle-right-bgpic-wrap"}>
-
                             <Image
                                 src={members}
-                                // src={"https://mislab.oss-cn-chengdu.aliyuncs.com/bgpic.jpg"}
+                                preview={{ visible: false }}
                                 className="abus-middle-right-bgpic"
                                 alt="     如果图片没有加载出来，请同学们把学长学姐脑补好看一点！拜托了！"
                                 style={{ height: 313 }}
+                                onClick={() => setVisible(true)}
                             />
+                            <div style={{ display: 'none' }}>
+                                <Image.PreviewGroup preview={{ visible, onVisibleChange: vis => setVisible(vis) }}>
+                                    <Image src={members} />
+                                    <Image src={members6} />
+                                    <Image src={members7} />
+                                    <Image src={members9} />
+                                    <Image src={members8} />
+                                    <Image src={members10} />
+                                    <Image src={members11} />
+                                    <Image src={members12} />
+                                    <Image src={members4} />
+                                    <Image src={members5} />
+                                    <Image src={members13} />
+                                    <Image src={members1} />
+                                    <Image src={members2} />
+                                    <Image src={members3} />
+                                </Image.PreviewGroup>
+                            </div>
                         </div>
                     </div>
                 </div>

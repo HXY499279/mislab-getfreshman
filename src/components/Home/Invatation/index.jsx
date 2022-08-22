@@ -69,7 +69,7 @@ export default function index(props) {
                 </div>
                 <div className="mainTitle-wrap">
                     <div className="mainTitle">
-                        <div>信管工作室&nbsp;·&nbsp;2021年度邀请函</div>
+                        <div>信管工作室&nbsp;·&nbsp;{new Date().getFullYear()}年度邀请函</div>
                         <div>想和优秀的你&nbsp;&nbsp;&nbsp;&nbsp;一起改变世界</div>
                         <div className="mainTitle-subtitle">
                             JOIN MISLAB
