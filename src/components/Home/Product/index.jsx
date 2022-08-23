@@ -59,7 +59,7 @@ export default function index(props) {
                                 邮问必答
                             </div>
                             <div className="prd-right-bottom-right-h2">
-                                服务于重庆邮电大学学生处学业辅导中心
+                                服务于学业辅导中心
                             </div>
                             <div className="prd-right-bottom-right-text">
                                 项目招募学业优秀、乐于助人的志愿者，针对数理类基础课程、<br />

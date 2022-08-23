@@ -50,7 +50,7 @@ export default function index() {
                 </div>
                 <div className="footer-footer">
                     <span>
-                        地址：重庆市南岸区崇文路2号重庆邮电大学经济管理学院2907
+                        地址：经济管理学院2907
                     </span>
                     <span>
                         邮箱：join@mislab.team
